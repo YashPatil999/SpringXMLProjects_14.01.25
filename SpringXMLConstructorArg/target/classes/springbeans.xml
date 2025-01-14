@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+
+	<bean id="user1" class="com.entity.Register">
+		<constructor-arg value="101" />
+		<constructor-arg value="Amit" />
+		<constructor-arg value="Sharma" />
+		<constructor-arg value="25" />
+		<constructor-arg value="1998-07-15" />
+		<constructor-arg value="Mumbai, Maharashtra" />
+		<constructor-arg value="amit.sharma@example.com" />
+		<constructor-arg value="securePassword123" />
+	</bean>
+
+	<bean id="user2" class="com.entity.Register">
+		<constructor-arg value="102" />
+		<constructor-arg value="Priya" />
+		<constructor-arg value="Iyer" />
+		<constructor-arg value="28" />
+		<constructor-arg value="1995-03-20" />
+		<constructor-arg value="Chennai, Tamil Nadu" />
+		<constructor-arg value="priya.iyer@example.com" />
+		<constructor-arg value="strongPassword456" />
+	</bean>
+
+</beans>
